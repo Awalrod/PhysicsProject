@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+	    <title>
+	        Physics App
+	    </title>
+	    <style type="text/css">
+/* 
+begin header styles
+ */
+	    h1.title {
+	        text-align:center;
+	        color: black;
+	        font-family:Didot,Perpetua Tilting MT,Times New Roman;
+	        }
+	    h2.subhead{
+	    	font-family: Didot;
+	    }
+	    
+	    /* 
+end header styles
+ */
+ 
+/* 
+begin list styles
+ */
+	    ul.topnav{
+	    	
+	    	margin: 5px;
+	    	padding: 5px;
+	    	text-align: center;
+	    	}
+	    	li.horizontalnav {
+	    		display: inline;
+	    		margin: 5px;
+	    	}
+/* 
+end list styles
+ */
+ 
+/* 
+ begin anchor styles
+ */
+	    	a.topnav {
+	    		color:#000000;
+	    		text-decoration: none;
+	    	}
+	    	a:visited.topnav{
+	    		color:#000000;
+	    		text-decoration:none;
+	    	}
+	    	a:hover.topnav{
+	    		text-decoration:bold;
+	    		color: orange;
+	    	}
+/* 
+end anchor styles
+ */
+/* 
+ begin line styles
+ */
+	    	hr.separation{
+	    		width: 250px
+	    	}
+/* 
+end line styles
+ */
+
+/* 
+begin body styles
+ */
+			 div.regcontent{
+ 				font-family: Cochin;
+ 				
+ 			}
+ 
+/* 
+ end body styles
+ */
+ 
+	    </style>
+    </head>
+    <body>
+       
+            <h1 class="title">Physics App Documentation</h1>
+			<ul class= "topnav">
+				<li class="horizontalnav"><a class="topnav" href="#windowSummary">Window Summary</a></li>
+				<li class="horizontalnav"><a class="topnav" href="#objectMenu">Object Menu</a></li>
+				<li class="horizontalnav"><a class="topnav" href="#simulationMenu">Simulation Menu</a></li>
+				<li class="horizontalnav"><a class="topnav" href="#windowMenu">Window menu</a></li>
+				<li class="horizontalnav"><a class="topnav" href="#contact">Contact </a></li>
+			</ul>  
+			<hr class="separation" /> 
+        
+        
+        <div class="regcontent">
+			<h2 class="subhead" id="windowSummary">Window Summary</h2>
+			There are two Windows, the Object Pane and the Control Window. The Object Pane shows the x and y axes, as well as any objects
+			within the specified range. The Control Window contains the menus for controlling different parts of the Object Pane.
+        </div>
+        
+        
+        <div class="regcontent">
+			<h2 class="subhead" id="objectMenu">Object Menu</h2>
+			The Object Menu contains the controls to add objects to the Object Pane
+			<p>
+				There are six fields that need to be completed to add and object: <br />
+				1)The velocity of the object given in arbitrary units<br />
+				2)The direction of given velocity in degrees, with 0 being East, 90 being North etc. <br />
+				3)The acceleration of the object in arbitrary units <br />
+				4)The direction of said acceleration in degrees, with 0 being East, 90 being North etc. <br />
+				5)The location x of the object<br />
+				6)The location y of the object<br />
+			</p>
+			<p>
+				Once the fields have been properly filled out, pressing "Add Object" will add the object to the Object Pane.
+			</p>
+		</div>	
+		
+		<div class="regcontent">
+			<h2 class="subhead" id="simulationMenu">Simulation Menu</h2>
+			The Simulatoin Menu controls the simulation in the Object Pane
+			<p>
+				There are three buttons in the Simulation Menu:<br />
+				1)The Start button starts the simulation<br />
+				2)The Stop button stops the simulation<br />
+				3)The Clear button clears all objects from the simulation<br />
+			</p>
+		</div>
+		
+		<div class="regcontent">
+			<h2 class="subhead" id="windowMenu">Window Menu</h2>
+			The Window Menu controls the bounds of what is visible in the Object Pane
+			<p>
+				There are four fields to be filled out to adjust the bounds:<br />
+				1)The x lower bound, the lowest x value visible in the Object Pane. Default -350<br />
+				2)The x upper bound, the highest x value visible in the Object Pane Default 350<br />
+				3)The y lower bound, the lowest y value visible in the Object Pane. Default -350<br />
+				4)The y upper bound, the highest y value visible in the Object Pane. Default 350<br />
+			</p>
+			<p>
+				Once the fields have been properly filled out, pressing "Set" will set the visible window in the Object Pane
+			</p>
+		</div>
+		
+        <div class="regcontent">
+			<h2 class="subhead" id="contact">Contact Info</h2>
+            <p>Contact the developer at awalrod123@gmail.com</p>
+        </div>
+        
+        
+    </body>
+</html>
